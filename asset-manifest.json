@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sanguine/static/css/main.04c6af82.css",
+    "main.js": "/sanguine/static/js/main.193221d4.js",
+    "static/js/787.5f1e3f49.chunk.js": "/sanguine/static/js/787.5f1e3f49.chunk.js",
+    "index.html": "/sanguine/index.html",
+    "main.04c6af82.css.map": "/sanguine/static/css/main.04c6af82.css.map",
+    "main.193221d4.js.map": "/sanguine/static/js/main.193221d4.js.map",
+    "787.5f1e3f49.chunk.js.map": "/sanguine/static/js/787.5f1e3f49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04c6af82.css",
+    "static/js/main.193221d4.js"
+  ]
+}
