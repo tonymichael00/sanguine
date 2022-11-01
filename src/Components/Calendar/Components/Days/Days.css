@@ -1,0 +1,39 @@
+.day {
+  border-right: 0.15rem solid rgb(0, 0, 0);
+  border-bottom: 0.15rem solid rgb(0, 0, 0);
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 41rem) {
+  .day:nth-child(n + 1):nth-child(-n + 2) {
+    border-top: 0.15rem solid rgb(0, 0, 0);
+  }
+
+  .day:nth-child(odd) {
+    border-left: 0.15rem solid rgb(0, 0, 0);
+  }
+}
+
+.date {
+  position: relative;
+  align-self: flex-start;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+.temperature {
+  position: relative;
+  right: 0.5rem;
+  top: 2.5rem;
+  font-size: 2rem;
+}
+
+.emoji {
+  position: relative;
+  right: -0.5rem;
+  top: -0.5rem;
+  font-size: 1.5em;
+}

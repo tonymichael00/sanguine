@@ -1,0 +1,52 @@
+p {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-top: 1rem;
+  color: #ffd401;
+}
+
+#instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#instructions-cont {
+  max-width: 50ch;
+  margin: 1rem;
+  background-color: hsl(50, 100%, 80%);
+  padding: 1.2rem;
+  height: fit-content;
+  border-radius: 0.5rem;
+}
+
+#content {
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 41rem) {
+  #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

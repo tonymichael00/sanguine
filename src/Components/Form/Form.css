@@ -1,0 +1,66 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+button {
+  background-color: #ffffff;
+  border: 0.1rem solid black;
+  border-radius: 0;
+}
+
+button:active {
+  background-color: #ffd401;
+}
+
+input {
+  background: rgb(255, 255, 255);
+  border: 0.1rem solid rgb(0, 0, 0);
+  border-radius: 0;
+}
+
+label {
+  justify-self: right;
+}
+
+#weather-form-container {
+  align-self: flex-start;
+}
+
+.weather-form {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 18rem;
+  height: fit-content;
+  align-items: center;
+  justify-self: center;
+}
+
+.weather-form-header {
+  background-color: black;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  border-radius: 0.5rem;
+  color: #ffd401;
+}
+
+.weather-form-form {
+  display: grid;
+  grid-template-columns: max-content 10em;
+  justify-self: center;
+  gap: 0.3rem;
+  padding: 0.3rem;
+}
+
+.submit-btn {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-self: right;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 41rem) {
+  #weather-form-container {
+    align-self: center;
+  }
+}
