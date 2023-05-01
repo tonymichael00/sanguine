@@ -13,8 +13,8 @@ p {
   display: flex;
   justify-content: center;
   margin: 0;
-  margin-top: 1rem;
-  color: #ffd401;
+  /* margin-top: 1rem; */
+  color: #000000;
 }
 
 #instructions {
@@ -25,12 +25,13 @@ p {
 }
 
 #instructions-cont {
-  max-width: 50ch;
+  max-width: 57ch;
   margin: 1rem;
   background-color: hsl(50, 100%, 80%);
   padding: 1.2rem;
   height: fit-content;
   border-radius: 0.5rem;
+  border: 0.3rem solid #000000;
 }
 
 #content {

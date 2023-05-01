@@ -1,4 +1,5 @@
 .day {
+  position: relative;
   border-right: 0.15rem solid rgb(0, 0, 0);
   border-bottom: 0.15rem solid rgb(0, 0, 0);
   width: 7rem;
@@ -18,22 +19,24 @@
 }
 
 .date {
-  position: relative;
+  position: absolute;
   align-self: flex-start;
-  right: 0.5rem;
+  left: 0.5rem;
   top: 0.5rem;
 }
 
 .temperature {
-  position: relative;
+  /* position: relative;
   right: 0.5rem;
-  top: 2.5rem;
+  top: 2.5rem; */
   font-size: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .emoji {
   position: relative;
-  right: -0.5rem;
-  top: -0.5rem;
+  /* right: -0.5rem;
+  top: -0.5rem; */
   font-size: 1.5em;
 }

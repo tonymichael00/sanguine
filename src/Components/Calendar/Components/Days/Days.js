@@ -44,7 +44,7 @@ const Days = ({ temperature, date, prefTemperature, error }) => {
         <div className="date">{date}</div>
         <div className="temperature">
           {temperature === undefined ? (
-            <div className="emoji">&#x1F60E;</div>
+            <div className="emoji">&#x26C5;</div>
           ) : (
             temperature + '°'
           )}
