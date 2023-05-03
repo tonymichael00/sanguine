@@ -28,13 +28,15 @@ function App() {
           </p>
         </div>
       </div>
-      <div id="content">
-        <Form searchZip={searchZip} setPrefTemperature={setPrefTemperature} />
-        <Calendar
-          error={error}
-          weatherData={weatherData}
-          prefTemperature={prefTemperature}
-        />
+      <div className="content-cont">
+        <div id="content">
+          <Form searchZip={searchZip} setPrefTemperature={setPrefTemperature} />
+          <Calendar
+            error={error}
+            weatherData={weatherData}
+            prefTemperature={prefTemperature}
+          />
+        </div>
       </div>
     </div>
   );

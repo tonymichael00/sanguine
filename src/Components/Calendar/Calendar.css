@@ -1,12 +1,24 @@
 .calendar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--calendar-spacing));
+  margin-left: calc(-1 * var(--calendar-spacing));
+  padding: var(--calendar-spacing);
+  margin-left: auto;
+  /* border-top: 0.15rem solid black;
+  border-left: 0.15rem solid black; */
+}
+
+/* .calendar {
   display: grid;
   grid-template-columns: repeat(5, auto);
   width: auto;
   border-top: 0.15rem solid black;
   border-left: 0.15rem solid black;
 }
-
-@media (max-width: 41rem) {
+ */
+/* @media (max-width: 41rem) {
   .calendar {
     display: flex;
     flex-direction: row;
@@ -17,4 +29,4 @@
     border-top: 0.15rem none black;
     border-left: 0.15rem none black;
   }
-}
+} */

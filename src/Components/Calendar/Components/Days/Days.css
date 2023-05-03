@@ -1,14 +1,18 @@
 .day {
   position: relative;
-  border-right: 0.15rem solid rgb(0, 0, 0);
-  border-bottom: 0.15rem solid rgb(0, 0, 0);
+  outline: var(--calendar-spacing) solid; /* use instead of border */
+  margin-top: var(--calendar-spacing);
+  margin-left: var(--calendar-spacing);
+  /* border-right: 0.15rem solid rgb(0, 0, 0);
+  border-bottom: 0.15rem solid rgb(0, 0, 0); */
   width: 7rem;
   height: 7rem;
   display: flex;
   justify-content: center;
+  border-radius: 1rem;
 }
 
-@media (max-width: 41rem) {
+/* @media (max-width: 41rem) {
   .day:nth-child(n + 1):nth-child(-n + 2) {
     border-top: 0.15rem solid rgb(0, 0, 0);
   }
@@ -16,7 +20,7 @@
   .day:nth-child(odd) {
     border-left: 0.15rem solid rgb(0, 0, 0);
   }
-}
+} */
 
 .date {
   position: absolute;

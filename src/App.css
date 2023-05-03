@@ -2,11 +2,15 @@ p {
   margin: 0;
 }
 
+body {
+  --calendar-spacing: 0.3rem;
+}
+
 .App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto;
+  /* grid-template-columns: auto minmax(); */
+  /* max-width: 70rem; */
 }
 
 #logo {
@@ -30,24 +34,38 @@ p {
   background-color: hsl(50, 100%, 80%);
   padding: 1.2rem;
   height: fit-content;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   border: 0.3rem solid #000000;
 }
 
-#content {
-  justify-self: center;
+.content-cont {
   display: flex;
+  justify-content: center;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  /* justify-content: center; */
+  /* max-width: 80rem; */
+  width: clamp(0vw, 70rem, 100vw);
+  /* margin: 0 auto 0 auto; */
+}
+
+/* #content {
+  display: flex;
+  justify-self: center;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 1rem;
 }
-
-@media (max-width: 41rem) {
+ */
+@media (max-width: 40rem) {
   #content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr;
   }
 }
