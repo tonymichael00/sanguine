@@ -6,6 +6,7 @@
   margin-left: calc(-1 * var(--calendar-spacing));
   padding: var(--calendar-spacing);
   margin-left: auto;
+  padding-right: 1rem;
   /* border-top: 0.15rem solid black;
   border-left: 0.15rem solid black; */
 }

@@ -17,8 +17,11 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
-  /* margin-top: 1rem; */
-  color: #000000;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* color: hsl(50, 100%, 50%); */
+  color: hsl(50, 100%, 0%);
+  font-size: 3em;
 }
 
 #instructions {
@@ -35,7 +38,7 @@ body {
   padding: 1.2rem;
   height: fit-content;
   border-radius: 1rem;
-  border: 0.3rem solid #000000;
+  border: 0.3rem solid hsl(50, 100%, 0%);
 }
 
 .content-cont {
@@ -48,7 +51,8 @@ body {
   grid-template-columns: auto 1fr;
   /* justify-content: center; */
   /* max-width: 80rem; */
-  width: clamp(0vw, 70rem, 100vw);
+  margin-top: 2rem;
+  width: clamp(0vw, 65rem, 100vw);
   /* margin: 0 auto 0 auto; */
 }
 

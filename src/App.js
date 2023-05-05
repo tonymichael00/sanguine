@@ -19,8 +19,8 @@ function App() {
   return (
     <div className="App">
       <div id="instructions">
+        <h1 id="logo">Sanguine</h1>
         <div id="instructions-cont">
-          <h1 id="logo">Sanguine</h1>
           <p>
             Feel free to search for your optimum weather for the next 5 days.
             Ideal days will be yellow and turn white the less ideal they become.

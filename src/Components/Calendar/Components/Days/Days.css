@@ -1,6 +1,6 @@
 .day {
   position: relative;
-  outline: var(--calendar-spacing) solid; /* use instead of border */
+  outline: var(--calendar-spacing) solid hsl(50, 100%, 0%); /* use instead of border */
   margin-top: var(--calendar-spacing);
   margin-left: var(--calendar-spacing);
   /* border-right: 0.15rem solid rgb(0, 0, 0);

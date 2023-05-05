@@ -4,18 +4,21 @@ a {
 }
 
 button {
-  background-color: #ffffff;
-  border: 0.1rem solid black;
+  background-color: hsl(50, 100%, 50%);
+  border: 0.1rem solid hsl(50, 100%, 0%);
   border-radius: 0;
+  font-size: 0.9rem;
+  height: 1.5rem;
+  width: 4rem;
 }
 
 button:active {
-  background-color: #ffd401;
+  background-color: hsl(50, 100%, 100%);
 }
 
 input {
-  background: rgb(255, 255, 255);
-  border: 0.1rem solid rgb(0, 0, 0);
+  background: hsl(50, 100%, 100%);
+  border: 0.1rem solid hsl(50, 100%, 50%);
   border-radius: 0;
 }
 
@@ -40,11 +43,13 @@ label {
 }
 
 .weather-form-header {
-  background-color: black;
+  background-color: hsl(50, 100%, 50%);
+  border: 0.2rem solid hsl(50, 100%, 0%);
+
   padding: 0.5rem;
   padding-left: 1rem;
   border-radius: 0.5rem;
-  color: #ffd401;
+  color: #000000;
 }
 
 .weather-form-form {
@@ -53,6 +58,7 @@ label {
   justify-self: center;
   gap: 0.3rem;
   padding: 0.3rem;
+  /* color: hsl(50, 100%, 50%); */
 }
 
 .submit-btn {
