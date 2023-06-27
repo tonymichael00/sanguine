@@ -7,27 +7,4 @@
   padding: var(--calendar-spacing);
   margin-left: auto;
   padding-right: 1rem;
-  /* border-top: 0.15rem solid black;
-  border-left: 0.15rem solid black; */
 }
-
-/* .calendar {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  width: auto;
-  border-top: 0.15rem solid black;
-  border-left: 0.15rem solid black;
-}
- */
-/* @media (max-width: 41rem) {
-  .calendar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    grid-template-columns: none;
-    width: 20rem;
-    border-top: 0.15rem none black;
-    border-left: 0.15rem none black;
-  }
-} */

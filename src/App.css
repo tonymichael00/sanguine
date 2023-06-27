@@ -9,8 +9,6 @@ body {
 .App {
   display: grid;
   grid-template-rows: auto auto;
-  /* grid-template-columns: auto minmax(); */
-  /* max-width: 70rem; */
 }
 
 #logo {
@@ -19,7 +17,6 @@ body {
   margin: 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  /* color: hsl(50, 100%, 50%); */
   color: hsl(50, 100%, 0%);
   font-size: 3em;
 }
@@ -49,23 +46,10 @@ body {
 #content {
   display: grid;
   grid-template-columns: auto 1fr;
-  /* justify-content: center; */
-  /* max-width: 80rem; */
   margin-top: 2rem;
   width: clamp(0vw, 65rem, 100vw);
-  /* margin: 0 auto 0 auto; */
 }
 
-/* #content {
-  display: flex;
-  justify-self: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
- */
 @media (max-width: 40rem) {
   #content {
     display: grid;

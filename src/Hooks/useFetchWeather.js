@@ -44,6 +44,9 @@ const useFetchWeather = () => {
         const weatherData = res.data;
         console.log('weatherData', weatherData);
         const { list } = weatherData;
+
+        //weather data contains 3 hour predictions so I filter
+        //for the current hour. 24/3=8
         const forecast = list.filter((e, i) => {
           if ((i + 8) % 8 === 0) {
             return true;
@@ -54,7 +57,6 @@ const useFetchWeather = () => {
         const filteredForecast = forecast.map((day) => {
           let formatTemp = Math.round(day.main.temp);
           let formatDate = day.dt_txt.slice(8, 10);
-          // console.log('formatDate', formatDate);
           return { temperature: formatTemp, date: formatDate };
         });
 
